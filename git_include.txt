@@ -1,9 +1,11 @@
 index.html
 LICENSE
 _config.yml
-_layouts/logs.html
-_layouts/paper.html
-_layouts/rewrite.html
+_layouts/_default.html
+_layouts/_post.html
+logs/index.html
+papers/index.html
+rewrites/index.html
 _includes/intro.md
 git_include.txt
 assets/css/*

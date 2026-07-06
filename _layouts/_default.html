@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}Cyan's PhD Log</title>
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/img/cyan_icon.png' | relative_url }}" type="image/png">
+
+  <!-- MathJax for LaTeX rendering -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/logs/' | relative_url }}">Research Log</a>
+    <a href="{{ '/papers/' | relative_url }}">Paper Notes</a>
+    <a href="{{ '/rewrites/' | relative_url }}">Rewrites</a>
+  </nav>
+</header>
+
+{{ content }}
+
+<footer class="site-footer">
+  <p>© 2026 Cyan</p>
+</footer>
+
+</body>
+</html>

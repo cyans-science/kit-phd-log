@@ -1,0 +1,37 @@
+---
+layout: default
+title: Paper Notes
+---
+
+<main class="list-container">
+  <section class="list-header">
+    <h1>Paper Notes</h1>
+    <p>Structured notes on papers, methods, assumptions, and reusable ideas.</p>
+  </section>
+
+  <section class="post-list">
+    {% assign paper_posts = site.posts | where: "category", "papers" %}
+
+    {% for post in paper_posts %}
+      <article class="post-list-item">
+        <h2>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+
+        <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+
+        {% if post.summary %}
+          <p class="summary">{{ post.summary }}</p>
+        {% endif %}
+
+        {% if post.tags %}
+          <p class="post-tags">
+            {% for tag in post.tags %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </section>
+</main>

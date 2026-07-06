@@ -1,15 +1,29 @@
-title: Cyan's Page
-description: Personal page of Cyan
-# theme: jekyll-theme-leap-day
-# theme: jekyll-theme-modernist
-theme: jekyll-theme-time-machine
+title: Cyan's PhD Log
+description: Research logs, paper notes, and scientific writing practice.
 
+baseurl: "/kit-phd-log"
+url: "https://cyans-science.github.io"
 
-# Let Jekyll process Markdown everywhere
 markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
 
-include:
-  - posts
+defaults:
+  - scope:
+      path: "_posts/logs"
+      type: "posts"
+    values:
+      layout: "post"
+      category: "logs"
+
+  - scope:
+      path: "_posts/papers"
+      type: "posts"
+    values:
+      layout: "post"
+      category: "papers"
+
+  - scope:
+      path: "_posts/rewrites"
+      type: "posts"
+    values:
+      layout: "post"
+      category: "rewrites"
