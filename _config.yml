@@ -1,0 +1,15 @@
+title: Cyan's Page
+description: Personal page of Cyan
+# theme: jekyll-theme-leap-day
+# theme: jekyll-theme-modernist
+theme: jekyll-theme-time-machine
+
+
+# Let Jekyll process Markdown everywhere
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+include:
+  - posts
