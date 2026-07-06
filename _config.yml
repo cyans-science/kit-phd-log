@@ -2,7 +2,7 @@ title: "Cyan's PhD Notebook"
 description: "Research logs, paper notes, and scientific writing practice."
 
 url: "https://cyans-science.github.io"
-baseurl: "/kit-phd-log"
+baseurl: "/kit-phd-notebook"
 
 markdown: kramdown
 
