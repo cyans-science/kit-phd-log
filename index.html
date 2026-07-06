@@ -5,9 +5,9 @@ layout: none
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Research Log</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="icon" href="/assets/img/cyan_icon.png" type="image/png">
+  <title>Cyan's PhD Log</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/img/cyan_icon.png' | relative_url }}" type="image/png">
 
   <script>
     window.MathJax = {
@@ -28,18 +28,18 @@ layout: none
 
 <header class="site-header">
   <nav>
-    <a href="/">Home</a>
-    <a href="/logs/">Research Log</a>
-    <a href="/papers/">Paper Notes</a>
-    <a href="/rewrites/">Rewrites</a>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/logs/' | relative_url }}">Research Log</a>
+    <a href="{{ '/papers/' | relative_url }}">Paper Notes</a>
+    <a href="{{ '/rewrites/' | relative_url }}">Rewrites</a>
   </nav>
 </header>
 
 <main class="about-container">
 
-  <div class="about-photo">
+  <!-- <div class="about-photo">
     <img src="/assets/img/cyan_see.png" alt="Cyan profile photo">
-  </div>
+  </div> -->
 
   <div class="about-text">
   {% capture intro_content %}
