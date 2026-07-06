@@ -1,0 +1,26 @@
+---
+title: "Starting the PhD Research Log"
+date: 2026-07-06
+summary: "Initial note on setting up a research log habit for PhD work."
+tags: [research-log, phd, writing]
+---
+
+## Question
+
+What kind of research note system should support my PhD work over the next three years?
+
+## Context
+
+I want the log to preserve daily research reasoning, not only final results. The purpose is to make future writing easier and to avoid losing the reasoning behind decisions.
+
+## What I did
+
+I started setting up a GitHub Pages blog with separate sections for research logs, paper notes, and rewritten paragraphs.
+
+## Interpretation
+
+The research log should remain functional and lightweight. It should not become a polished essay every day.
+
+## Next action
+
+Create the first paper-note template and decide the minimum structure for weekly notes.

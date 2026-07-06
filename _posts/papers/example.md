@@ -1,0 +1,44 @@
+---
+title: "Paper Note: Example Title"
+date: 2026-07-06
+summary: "A structured note template for reading papers actively."
+tags: [paper-note, detector-ml]
+---
+
+## Citation
+
+Author et al., *Paper Title*, Journal/Conference, Year.
+
+## One-sentence summary
+
+This paper proposes ...
+
+## Problem
+
+The main problem addressed by the paper is ...
+
+## Main idea
+
+The central idea is ...
+
+## Method
+
+The method consists of ...
+
+## Dataset and evaluation
+
+The paper evaluates the method on ...
+
+## What is useful for my research?
+
+- ...
+- ...
+
+## Limitations
+
+- ...
+- ...
+
+## Questions
+
+- ...
