@@ -1,0 +1,21 @@
+<nav>
+  <a href="{{ '/' | relative_url }}"
+     class="{% if page.url == '/' %}active{% endif %}">
+    Home
+  </a>
+
+  <a href="{{ '/logs/' | relative_url }}"
+     class="{% if page.url contains '/logs/' or page.category == 'logs' %}active{% endif %}">
+    Research Log
+  </a>
+
+  <a href="{{ '/papers/' | relative_url }}"
+     class="{% if page.url contains '/papers/' or page.category == 'papers' %}active{% endif %}">
+    Paper Notes
+  </a>
+
+  <a href="{{ '/rewrites/' | relative_url }}"
+     class="{% if page.url contains '/rewrites/' or page.category == 'rewrites' %}active{% endif %}">
+    Rewrites
+  </a>
+</nav>

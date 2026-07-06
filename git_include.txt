@@ -1,12 +1,13 @@
 index.html
 LICENSE
 _config.yml
-_layouts/_default.html
-_layouts/_post.html
+_layouts/default.html
+_layouts/post.html
 logs/index.html
 papers/index.html
 rewrites/index.html
 _includes/intro.md
+_includes/nav.html
 git_include.txt
 assets/css/*
 assets/img/cyan_icon.png

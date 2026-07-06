@@ -27,12 +27,7 @@ layout: none
 <body>
 
 <header class="site-header">
-  <nav>
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/logs/' | relative_url }}">Research Log</a>
-    <a href="{{ '/papers/' | relative_url }}">Paper Notes</a>
-    <a href="{{ '/rewrites/' | relative_url }}">Rewrites</a>
-  </nav>
+  {% include nav.html %}
 </header>
 
 <main class="about-container">

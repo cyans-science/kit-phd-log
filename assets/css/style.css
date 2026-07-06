@@ -34,6 +34,18 @@ nav a:hover {
   color: var(--theme);
 }
 
+nav a.active {
+  color: var(--theme);
+}
+
+nav a.active::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: var(--theme);
+  margin-top: 0.2rem;
+}
+
 /* About page layout */
 .about-container {
   max-width: 900px;
