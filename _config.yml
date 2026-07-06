@@ -1,10 +1,12 @@
-title: Cyan's PhD Log
-description: Research logs, paper notes, and scientific writing practice.
+title: "Cyan's PhD Log"
+description: "Research logs, paper notes, and scientific writing practice."
 
 baseurl: "/kit-phd-log"
 url: "https://cyans-science.github.io"
 
 markdown: kramdown
+
+permalink: /:categories/:year/:month/:day/:title/
 
 defaults:
   - scope:
