@@ -4,10 +4,10 @@ title: Paper Notes
 ---
 
 <main class="list-container">
-  <section class="list-header">
+  <!-- <section class="list-header">
     <h1>Paper Notes</h1>
     <p>Structured notes on papers, methods, assumptions, and reusable ideas.</p>
-  </section>
+  </section> -->
 
   <section class="post-list">
     {% assign paper_posts = site.posts | where: "category", "papers" %}
@@ -18,7 +18,7 @@ title: Paper Notes
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h2>
 
-        <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+        <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
 
         {% if post.summary %}
           <p class="summary">{{ post.summary }}</p>

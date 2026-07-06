@@ -4,10 +4,10 @@ title: Rewrites
 ---
 
 <main class="list-container">
-  <section class="list-header">
+  <!-- <section class="list-header">
     <h1>Rewrites</h1>
     <p>Weekly polished paragraphs and rewritten explanations from research notes.</p>
-  </section>
+  </section> -->
 
   <section class="post-list">
     {% assign rewrite_posts = site.posts | where: "category", "rewrites" %}
@@ -18,7 +18,7 @@ title: Rewrites
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h2>
 
-        <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+        <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
 
         {% if post.summary %}
           <p class="summary">{{ post.summary }}</p>

@@ -4,10 +4,10 @@ title: Research Log
 ---
 
 <main class="list-container">
-  <section class="list-header">
-    <h1>Research Log</h1>
+  <!-- <section class="list-header"> -->
+    <!-- <h1>Research Log</h1>
     <p>Working notes on research progress, questions, experiments, and interpretation.</p>
-  </section>
+  </section> -->
 
   <section class="post-list">
     {% assign log_posts = site.posts | where: "category", "logs" %}
@@ -18,7 +18,7 @@ title: Research Log
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h2>
 
-        <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+        <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
 
         {% if post.summary %}
           <p class="summary">{{ post.summary }}</p>
