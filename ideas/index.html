@@ -10,7 +10,7 @@ title: Idea Note
   </section> -->
 
   <section class="post-list">
-    {% assign log_posts = site.posts | where: "category", "ideas" %}
+    {% assign idea_posts = site.posts | where: "category", "ideas" %}
 
     {% for post in idea_posts %}
       <article class="post-list-item">
