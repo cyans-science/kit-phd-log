@@ -6,6 +6,7 @@ _layouts/post.html
 logs/index.html
 papers/index.html
 rewrites/index.html
+ideas/index.html
 _includes/intro.md
 _includes/nav.html
 git_include.txt
@@ -16,4 +17,5 @@ assets/img/cyan_see.png
 _posts/logs/*
 _posts/papers/*
 _posts/rewrites/*
+_posts/ideas/*
 README

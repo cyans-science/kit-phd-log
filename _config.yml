@@ -29,3 +29,10 @@ defaults:
     values:
       layout: "post"
       category: "rewrites"
+
+  - scope:
+      path: "_posts/ideas"
+      type: "posts"
+    values:
+      layout: "post"
+      category: "ideas"

@@ -1,1 +1,8 @@
-https://cyans-science.github.io/kit-phd-notebook/
+* [The web address](https://cyans-science.github.io/kit-phd-notebook/): https://cyans-science.github.io/kit-phd-notebook/
+
+* In case of deployment failure, 
+
+```bash
+git commit --allow-empty -m "redeploy"
+git push
+```
